@@ -1,0 +1,32 @@
+# Copy this file to .env and fill in your configuration
+# 将此文件复制为 .env 并填入您的配置
+
+# LMStudio Server Configuration
+# LMStudio 服务器配置
+LMSTUDIO_BASE_URL=http://localhost
+LMSTUDIO_PORT=1234
+
+# Model Configuration
+# 模型配置
+MODEL_NAME=qwen3-8b
+MAX_TOKENS=32786
+
+# Processing Configuration
+# 处理配置
+CHUNK_BUFFER=500
+API_TIMEOUT=60
+
+# Optional: Alternative server configurations
+# 可选：其他服务器配置示例
+# LMSTUDIO_BASE_URL=http://192.168.1.100  # For remote server
+# LMSTUDIO_PORT=8080                      # Custom port
+# MODEL_NAME=Qwen3-14b                    # Different model
+# MAX_TOKENS=16000                        # Smaller context
+
+# Optional: Set default model
+# 可选：设置默认模型
+# DEFAULT_MODEL=gpt-3.5-turbo
+
+# Optional: Set custom chunk size
+# 可选：设置自定义分块大小
+# CHUNK_SIZE=3800 
